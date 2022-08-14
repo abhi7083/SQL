@@ -46,7 +46,7 @@ Task varchar(25) not null,
 Status varchar(15) not null,
 )
 
-Alter table EmpProjectTask
+/*Alter table EmpProjectTask
 Add Constraint PK_EmpProjectTask Primary Key(Project_ID,Empno)
 
 Alter Table EmpProjectTask
@@ -55,7 +55,7 @@ References Projects(Project_ID)
 
 Alter Table EmpProjectTask
 Add Constraint FK_EmpProjectTask2 Foreign Key(Empno)
-References Employees(Empno) 
+References Employees(Empno) */ 
 
 Insert into Clients values(1001,'ACME Utilites','Noida','contact@acmeutil.com','9567880032','Manufacturing'),
 (1002,'Trackon Consultants','Mumbai','consult@trackon.com','8734210090','Consultant'),
